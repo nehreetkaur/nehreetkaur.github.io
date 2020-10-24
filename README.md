@@ -34,4 +34,4 @@ Footer at the End with my contact information and i also added some icons from
 ## Links
 [GitHub Repository](https://github.com/nehreetkaur/nehreetkaur.github.io)
 
-[GitHub Deployed Appllicaation](https://nehreetkaur.github.io)
+[GitHub Deployed Applicaation](https://nehreetkaur.github.io)
