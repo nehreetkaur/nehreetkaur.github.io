@@ -90,7 +90,9 @@ header h1{
   color:purple;
 }
 
-
+.info h2{
+  color:purple;
+}
 
 .info{
   width:60%;
@@ -99,11 +101,8 @@ header h1{
 .info p{
   padding:10px 0;
 }
-/*.sociallinks{
-  display:flex;
-  justify-content: space-evenly;
-  padding:10px;
-}*/
+
+
 /*projects*/
 .projects{
   display:flex;
@@ -196,11 +195,12 @@ h4{
   border-bottom: 0px solid cyan ;
   transition:border 120ms, padding 120m
 }
-.contactlinks a:active{
-  color:gold;
+#contactlinks ul li a:active{
+  color:red;
 
 }
-.contactlinks a:hover{
+
+#contactlinks ul li a:hover{
   color:rebeccapurple;
 }
 
