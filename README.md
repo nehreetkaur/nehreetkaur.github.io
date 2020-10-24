@@ -28,7 +28,10 @@ Footer at the End with my contact information and i also added some icons from
 [FLEXBOX-Ressources ](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
 
+[Screenshot](images\screenshot.png)
+
+
 ## Links
-[GitHub Repository](https://github.com/nehreetkaur/portfoliohomework2.git)
+[GitHub Repository](https://github.com/nehreetkaur/nehreetkaur.github.io)
 
 [GitHub Deployed Appllicaation](https://nehreetkaur.github.io)
