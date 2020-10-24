@@ -31,4 +31,4 @@ Footer at the End with my contact information and i also added some icons from
 ## Links
 [GitHub Repository](https://github.com/nehreetkaur/portfoliohomework2.git)
 
-[GitHub Deployed Appllicaation](https://nehreetkaur.github.io/portfoliohomework2/)
+[GitHub Deployed Appllicaation](https://nehreetkaur.github.io)
