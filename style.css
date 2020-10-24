@@ -1,0 +1,273 @@
+*{
+    box-sizing:border box;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+#header{
+    width:100%;
+   padding:20x;
+   position: fixed;
+   background-color:pink;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+      opacity:.90;
+   
+}
+
+#header h1{
+  color:purple;
+  
+}
+
+
+#links{
+  margin-right:20px;
+}
+
+#links ul li{
+  display:inline-block;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#links ul li a{
+  text-decoration: none;
+  color:purple;
+  padding:25px;
+  border-bottom: 0px solid cyan ;
+  transition:border 120ms, padding 120ms;/*for smooth styling*/
+}
+#links ul li a:hover{
+  border-bottom: 1px solid hotpink;
+  padding-bottom:20px;
+}
+#links ul li a:active{
+  color:red;
+}
+
+#landing{
+  background:url("images/pink.jpg");
+ /* background-repeat: no repeat;*/
+  background-size:cover;
+  height:100vh;
+  padding:100px 20px;
+}  
+/**********end of header********/
+
+.piccard{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:auto;
+  width:70%;
+  padding:45px 10px;
+  background-color: lightcoral;
+  border-radius: 10px;
+  box-shadow:2px 2px 8px purple;
+}
+
+.piccard img{
+  height:200px;
+    border-radius: 10px;
+  box-shadow: 2px 2px 8px purple;
+}
+
+  p#Aboutme::first-letter{     /******Pseudo elements****/
+  color:rebeccapurple;   
+  font-size:200%;
+}
+.piccard p{
+  color:purple;
+}
+
+
+
+.info{
+  width:60%;
+  padding:10px;
+}
+.info p{
+  padding:10px 0;
+}
+/*.sociallinks{
+  display:flex;
+  justify-content: space-evenly;
+  padding:10px;
+}*/
+/*projects*/
+.projects{
+  display:flex;
+  flex-direction:column;
+  padding:100px;
+}
+
+.projects h1{
+  color:cadetblue;
+  text-transform: uppercase;
+
+}
+
+
+.projects1{
+  margin-bottom:50px;
+  border-bottom:2px solid black;
+  color:royalblue;
+}
+.projsec{
+  display:flex;
+  margin:auto;
+  margin-bottom:40px;
+  border:1px solid black;
+  background-color:peachpuff;
+
+  }
+  .projectinfo{
+    padding:20px;
+  }
+  .projectinfo h2{
+    border-bottom: 4px pink;
+    margin-bottom:15px;
+    color:cadetblue;
+    text-transform: uppercase;
+  }
+  .projsec img{
+    width:40%;
+    align-self:flex-start;
+  }
+
+
+/*****************End of Project Part********/
+
+
+#footer{
+  background:red;
+  padding:15px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  width:100%;
+  
+
+}
+#footerlinks{
+  margin-right:20px;
+  
+}
+#footerlinks ul li{
+  display:inline-block;
+}
+
+#contact{
+        
+   background-color: pink;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding:10px;
+}
+
+
+h4{
+  text-transform: uppercase;
+  color:purple;
+  font-size: large;
+}
+
+
+
+#contactlinks ul li{
+  display:inline-block;
+}
+
+#contactlinks ul li a{
+  text-decoration: none;
+  color:purple;
+  padding:20px;
+  border-bottom: 0px solid cyan ;
+  transition:border 120ms, padding 120m
+}
+.contactlinks a:active{
+  color:white;
+}
+.contactlinks a:hover{
+  color:rebeccapurple;
+}
+
+
+
+
+
+@media  screen and (max-width:768px){   /*for header*/
+  #links ul li a:hover{
+    border-bottom:3px solid black;
+    padding-bottom: 10px;
+  }
+   #header h2,#links{
+    margin:auto;
+  }
+  #header h1{
+    display: none;
+  }
+
+
+  /*media-query for piccard*/
+ .piccard{
+   width:60%;
+   padding:20px;
+   background: none;
+ }
+ .info{
+   width:100%;
+ }
+ .info h2{
+   display:none;
+ }
+ .piccard img{
+   height:200px;
+ }
+ /*for projects*/
+ .projects{
+   padding:20px;
+ }
+ .projsec{
+   width:100%;
+   flex-wrap: wrap;
+ }
+ .projsec2{
+   width:100%;
+   flex-wrap:wrap-reverse;
+ }
+ .projsec  img{
+   margin:auto;
+   width:100%;
+ }
+
+  /********footer******/
+  .contactlinks ul li{
+    flex-shrink: 2;
+    color:blue;
+  }
+  h4{
+    font-size: small;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
